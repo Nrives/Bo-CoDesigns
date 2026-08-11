@@ -1,1 +1,60 @@
+body {
+    margin: 0;
+    background-color: #f8f6f2;
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
+
+/* ---------- Banner ---------- */
+
+.banner {
+    width: 100%;
+    display: block;
+}
+
+
+/* ---------- Links / Buttons ---------- */
+
+.links {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 0 25px;
+}
+
+.button {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+
+    background-color: #333;
+    color: white;
+
+    padding: 16px;
+    margin-bottom: 18px;
+
+    border-radius: 6px;
+
+    font-size: 16px;
+    letter-spacing: 0.5px;
+
+    transition: background-color 0.2s ease;
+}
+
+.button:hover {
+    background-color: #555;
+}
+
+
+/* ---------- Mobile adjustments ---------- */
+
+@media (max-width: 600px) {
+
+    .links {
+        margin-top: 35px;
+    }
+
+    .button {
+        padding: 15px;
+    }
+}
